@@ -1,0 +1,67 @@
+{
+  "treeData": {
+    "Comunicação": {
+      "Contratação": {
+        "Messaging and Switching": {
+          "Objeção/Recusa": null,
+          "Prazo Ultrapassado": null,
+          "Regularização": null
+        },
+        "Ponto de Entrega": {
+          "Cadeias de Medidas": null,
+          "CUI": null
+        }
+      },
+      "Infraestruturas e Equipamentos": {
+        "Contador": {
+          "Chave Contador": null,
+          "Comunicação Leitura": null
+        }
+      }
+    },
+    "Pedido de Informação": {
+      "Infraestrutura e Equipamentos": {
+        "Contador": {
+          "Chave Contador": null,
+          "Comunicação Leitura": null
+        }
+      }
+    },
+    "Reclamação": {
+      "Infraestrutura e Equipamentos": {
+        "Contador": {
+          "Leitura Extraordinária": null
+        }
+      }
+    }
+  },
+  "questions": [
+    {
+      "question": "1. Um cliente contacta a querer comunicar a leitura",
+      "correctPath": [
+        "Comunicação",
+        "Infraestruturas e Equipamentos",
+        "Contador",
+        "Comunicação Leitura"
+      ]
+    },
+    {
+      "question": "2. Cliente pergunta o CUI do ponto de entrega",
+      "correctPath": [
+        "Comunicação",
+        "Contratação",
+        "Ponto de Entrega",
+        "CUI"
+      ]
+    },
+    {
+      "question": "3. Um cliente apresentou uma reclamação sobre leitura extraordinária",
+      "correctPath": [
+        "Reclamação",
+        "Infraestrutura e Equipamentos",
+        "Contador",
+        "Leitura Extraordinária"
+      ]
+    }
+  ]
+}

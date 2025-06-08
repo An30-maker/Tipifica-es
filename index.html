@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz Tipificação</title>
+  <style>
+    ul { list-style: none; padding-left: 20px; }
+    li { cursor: pointer; margin: 5px 0; }
+    .hidden { display: none; }
+    .clicked { font-weight: bold; color: green; }
+    .incorrect { font-weight: bold; color: red; }
+    button { margin: 10px 10px 0 0; }
+    #result { margin-top: 10px; }
+  </style>
+</head>
+<body>
+
+<h2 id="questionTitle">Carregando pergunta...</h2>
+<p>Clique no caminho completo.</p>
+<ul id="treeContainer"></ul>
+
+<p id="result"></p>
+<button onclick="resetQuiz()">🔁 Recomeçar</button>
+<button onclick="prevQuestion()">⬅️ Anterior</button>
+<button onclick="nextQuestion()">➡️ Próxima</button>
+
+<script>
+  let quizData = null;
+  let currentQuestionIndex = 0;
+  let userPath = [];
+  let locked = false;
+
+  fetch("quizData.json")
+    .then(response => response.json())
+    .then(data => {
+      quizData = data;
+      renderQuestion();
+    });
+
+  function renderQuestion() {
+    const question = quizData.questions[currentQuestionIndex];
+    document.getElementById("questionTitle").innerText = question.question;
+    document.getElementById("result").innerHTML = "";
+    userPath = [];
+    locked = false;
+
+    const container = document.getElementById("treeContainer");
+    container.innerHTML = "";
+    renderTree(quizData.treeData, container, 0);
+  }
+
+  function renderTree(tree, container, depth) {
+    const ul = document.createElement("ul");
+    for (const key in tree) {
+      const li = document.createElement("li");
+      li.textContent = key;
+      li.onclick = function (e) {
+        e.stopPropagation();
+        nextStep(key, depth, li);
+      };
+      ul.appendChild(li);
+      if (tree[key]) {
+        const childContainer = document.createElement("ul");
+        childContainer.classList.add("hidden");
+        li.appendChild(childContainer);
+        renderTree(tree[key], childContainer, depth + 1);
+      }
+    }
+    container.appendChild(ul);
+  }
+
+  function nextStep(label, depth, element) {
+    if (locked || userPath.length !== depth) return;
+
+    userPath.push(label);
+    element.classList.add("clicked");
+
+    const nextUl = element.querySelector("ul");
+    if (nextUl) nextUl.classList.remove("hidden");
+
+    const correctPath = quizData.questions[currentQuestionIndex].correctPath;
+
+    if (userPath.length === correctPath.length) {
+      locked = true;
+      const result = document.getElementById("result");
+      if (JSON.stringify(userPath) === JSON.stringify(correctPath)) {
+        result.innerHTML = "✅ Correto! Caminho: <strong>" + userPath.join(" → ") + "</strong>";
+        result.style.color = "green";
+      } else {
+        result.innerHTML = "❌ Caminho incorreto.<br>" +
+          "Você escolheu: <span class='incorrect'>" + userPath.join(" → ") + "</span><br>" +
+          "O caminho correto seria: <span class='clicked'>" + correctPath.join(" → ") + "</span>";
+        result.style.color = "red";
+      }
+    }
+  }
+
+  function resetQuiz() {
+    renderQuestion();
+  }
+
+  function nextQuestion() {
+    if (currentQuestionIndex < quizData.questions.length - 1) {
+      currentQuestionIndex++;
+      renderQuestion();
+    }
+  }
+
+  function prevQuestion() {
+    if (currentQuestionIndex > 0) {
+      currentQuestionIndex--;
+      renderQuestion();
+    }
+  }
+</script>
+
+</body>
+</html>
