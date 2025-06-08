@@ -1,0 +1,494 @@
+{
+  "treeData": {
+    "Comunicação": {
+      "Contratação": {
+        "Messaging and Switching": {
+          "Objeção/Recusa": null,
+          "Prazo Ultrapassado": null,
+          "Regularização": null
+        },
+        "Ponto de Entrega": {
+          "Cadeias de Medidas": null,
+          "Cliente Prioritário/Necessodades Especiais": null,
+          "CUI": null,
+          "Escalão/Tarifa": null,
+          "Morada/Toponímia": null,
+          "Método de Estimativa": null,
+          "Nome da Comercializadora": null,
+          "Potência Instalada/Potência Contratada": null,
+          "Pressão de Abastecimento": null
+        },
+        "Rede Interior": {
+          "Infraestruturação": null
+        }
+      },
+      "Hidrogénio": {
+        "Hidrogénio": {
+          "Avarias": null,
+          "Comercial": null,
+          "Emergência": null
+        }
+      },
+      "Infraestruturas e Equipamentos": {
+        "Contador": {
+          "Chave Contador": null,
+          "Comunicação Leitura": null,
+          "Roteiro de Leitura": null
+        },
+        "Rede/Ramal": {
+          "Construção": null,
+          "Embargo": null,
+          "Formulário de Acesso à Rede": null,
+          "Insistência": null,
+          "Orçamento": null,
+          "Outras": null,
+          "Pressão de abastecimento": null,
+          "Rede/Ramal": null,
+          "Via Pública": null,
+          "Viabilidade Abastecimento": null
+        },
+        "Rede Interior": {
+          "Alteração": null,
+          "Conversão e Reconversão de Aparelhos": null,
+          "CUI": null,
+          "Infraestruturação": null,
+          "Viabilidade abastecimento": null,
+          "Visita Comercial/Campanha": null
+        }
+      },
+      "Preços, Faturação e Cobrança": {
+        "Contador": {
+          "Método de estimativa": null,
+          "Roteiro de Leitura": null
+        },
+        "Faturação": {
+          "Ausência Faturação": null,
+          "Cobrança": null,
+          "Consumos/Leitura": null,
+          "Conta Corrente": null,
+          "Indústria": null,
+          "Preço Unitário": null,
+          "Realização de Acordo de Pagamento": null,
+          "Rede Interior": null,
+          "Rede/Ramal": null,
+          "Refaturação-Avarias, Erros de Medição e Inadequação": null,
+          "Refaturação-Erros de Comunicação de Dados de Acesso Remoto": null,
+          "Refaturação-Erros de Configuração": null,
+          "Refaturação-Erros de Leitura por Acesso Local": null,
+          "Refaturação-Leitura Estimada": null,
+          "Refaturação-Leitura Real": null,
+          "Refaturação-Outras não tipificadas": null,
+          "Refaturação de leitura": null,
+          "Refaturação de fatura": null
+        },
+        "Objeção": {
+          "Consumos/Leitura Estimada": null,
+          "Consumos/Leitura Real": null,
+          "Refaturação-Leitura estimada": null,
+          "Refaturação-Leitura real": null
+        }
+      },
+      "Produtos e Serviços": {
+        "Assistência Técnica": {
+          "Aparelhos": null
+        },
+        "Contador": {
+          "(Re)Agendamento": null,
+          "Avisos no Prédio": null,
+          "Certificação Instalação": null,
+          "Conversão e Reconversão de Aparelhos": null,
+          "Emergência": null,
+          "Falta de gás": null,
+          "Falta de pressão": null,
+          "Fraude": null,
+          "Funcionamento de contador": null,
+          "Leitura Extraordinária": null,
+          "Metrologia/Subs. Campanha": null,
+          "Outras": null,
+          "Retirada de Contador": null,
+          "Suspensão/Restab-ICU": null,
+          "Suspensão/Restab-IIU": null
+        },
+        "Rede Interior": {
+          "Aparelhos": null,
+          "Assistência Técnica": null,
+          "Atendimento": null,
+          "Danos Materiais e/ou Pessoais Causados": null,
+          "Infraestruturação": null
+        }
+      },
+      "Serviço ao Cliente": {
+        "2ª Via": {
+          "Insistência": null
+        },
+        "Assistência Técnica": {
+          "Atendimento": null,
+          "Insistência": null
+        },
+        "Atendimento": {
+          "Atendimento": null,
+          "Conteúdos Digitais": null,
+          "Registos/Gravações": null,
+          "RGPD": null
+        },
+        "Atuação": {
+          "Assistência Técnica": null,
+          "Atendimento": null,
+          "Contratação": null,
+          "Emergência": null,
+          "Rede Interior": null,
+          "Rede/Ramal": null
+        },
+        "Fora de âmbito": {
+          "Comercial/ORD": null
+        },
+        "Incumprimento": {
+          "Contratação": null,
+          "Rede/Ramal": null
+        },
+        "Louvor": {
+          "Assistência Técnica": null,
+          "Atendimento": null,
+          "Contratação": null,
+          "Emergência": null,
+          "Rede Interior": null,
+          "Rede/Ramal": null
+        },
+        "Rede Interior": {
+          "Atendiemnto": null,
+          "Insistência": null
+        }
+      }
+    },
+    "Pedido de Informação": {
+      "Contratação": {
+        "Messaging & Switching": {
+          "Objeção/Recusa": null,
+          "Prazo Ultrapassado": null,
+          "Regularização": null
+        },
+        "Ponto de Entrega": {
+          "Cadeias de Medidas": null,
+          "Clientes Prioritário/Necessidades Especiais": null,
+          "CUI": null,
+          "Escalão/Tarifa": null,
+          "Morada/Toponímia": null,
+          "Método de Estimativa": null,
+          "Nome da comercializadora": null,
+          "Potência Instalada/Potência Contratada": null,
+          "Pressão de Abastecimento": null
+        },
+        "Rede Interior": {
+          "Infraestruturação": null
+        }
+      },
+      "Infraestrutura e Equipamentos": {
+        "Contador": {
+          "Chave Contador": null,
+          "Comunicação Leitura": null,
+          "Roteiro Leitura": null
+        },
+        "Rede/Ramal": {
+          "Construção": null,
+          "Embargo": null,
+          "Formulário de Acesso à Rede": null,
+          "Insistência": null,
+          "Orçamento": null,
+          "Outras": null,
+          "Pressão de abastecimento": null,
+          "Rede/Ramal": null,
+          "Via Pública": null,
+          "Viabilidade Abastecimento": null
+        },
+        "Rede Interior": {
+          "Alteração": null,
+          "Conversão e Reconversão de Aparelhos": null,
+          "CUI": null,
+          "Infraestuturação": null,
+          "Viabilidade de abastecimento": null,
+          "Visita Comercial/Campanha": null
+        }
+      },
+      "Preços, Faturação e Cobrança": {
+        "Contador": {
+          "Método de Estimativa": null,
+          "Roteiro de Leitura": null
+        },
+        "Faturação": {
+          "Ausência Faturação": null,
+          "Cobrança": null,
+          "Consumos/Leitura": null,
+          "Conta Corrente": null,
+          "Indústria": null,
+          "Preço Unitário": null,
+          "Realização de Acordo de Pagamento": null,
+          "Rede Interior": null,
+          "Rede/Ramal": null,
+          "Refaturação-Avarias, Erros de Medição e Inadequação": null,
+          "Refaturação-Erros de Comunicação de Dados de Acesso Remoto": null,
+          "Refaturação-Erros de Configuração": null,
+          "Refaturação-Erros de Leitura por Acesso Local": null,
+          "Refaturação-Leitura Estimada": null,
+          "Refaturação-Leitura Real": null,
+          "Refaturação-Outras não tipificadas": null,
+          "Refaturação de leitura": null,
+          "Refaturação de fatura": null
+        },
+        "Objeção": {
+          "Consumos/Leitura estimada": null,
+          "Consumos/Leitura real": null,
+          "Refaturação-leitura estimada": null,
+          "Refaturação-leitura real": null
+        }
+      },
+      "Produtos e Serviços": {
+        "Assistência Técnica": {
+          "Aparelhos": null,
+          "Falta de gás": null
+        },
+        "Contador": {
+          "(Re)Agendamento": null,
+          "Avisos no Prédio": null,
+          "Certificação Instalação": null,
+          "Conversão e Reconversão de Aparelhos": null,
+          "Emergência": null,
+          "Fraude": null,
+          "Funcionamento de contador": null,
+          "Leitura Extraordinária": null,
+          "Metrologia/Subs. Campanha": null,
+          "Outras": null,
+          "Retirada de Contador": null,
+          "Suspensão/Restab-ICU": null,
+          "Suspensão/Restab-IIU": null
+        },
+        "Rede Interior": {
+          "Aparelhos": null,
+          "Atendimentos": null,
+          "Danos Materiais e/ou Pessoais causados": null
+        }
+      },
+      "Serviço ao Cliente": {
+        "2ª Via": {
+          "Insistência": null
+        },
+        "Assistência Técnica": {
+          "Atendimento": null,
+          "Insistência": null
+        },
+        "Atendimento": {
+          "Atendimento": null,
+          "Comunicações Enviadas": null,
+          "Conteúdo Digitais": null,
+          "Registos/Gravações": null,
+          "RGPD": null
+        },
+        "Atuação": {
+          "Assistência Técnica": null,
+          "Atendimento": null,
+          "Contratação": null,
+          "Emergência": null,
+          "Rede Interior": null,
+          "Rede/Ramal": null
+        },
+        "Fora de âmbito": {
+          "Comercial/ORD": null
+        },
+        "Incumprimento": {
+          "Contratação": null,
+          "Rede/Ramal": null
+        },
+        "Rede Interior": {
+          "Atendimento": null,
+          "Insistência": null
+        }
+      }
+    },
+    "Reclamação": {
+      "Contratação": {
+        "Messaging & Switching": {
+          "Objeção/Recusa": null,
+          "Prazo Ultrapassado": null,
+          "Regularização": null
+        },
+        "Ponto de Entrega": {
+          "Cadeias de Medidas": null,
+          "Clientes Prioritários/Necessidades Especiais": null,
+          "CUI": null,
+          "Escalão/Tarifa": null,
+          "Morada/Toponímia": null,
+          "Método de Estimativa": null,
+          "Nome da comercializadora": null,
+          "Potência Instalada/Potência Contratada": null,
+          "Pressão de Abastecimento": null
+        }
+      },
+      "Infraestrutura e Equipamentos": {
+        "Contador": {
+          "Chave Contador": null,
+          "Comunicação Leitura": null,
+          "Roteiro Leitura": null
+        },
+        "Rede/Ramal": {
+          "Construção": null,
+          "Embargo": null,
+          "Formulário de Acesso à Rede": null,
+          "Insistência": null,
+          "Orçamento": null,
+          "Via Pública": null,
+          "Viabilidade Abastecimento": null
+        },
+        "Rede Interior": {
+          "Alteração": null,
+          "Conversão e Reconversão de Aparelhos": null,
+          "CUI": null,
+          "Infraestruturação": null,
+          "Visita Comercial/Subs. Campanha": null
+        }
+      },
+      "Preços, Faturação e Cobrança": {
+        "Faturação": {
+          "Ausência Faturação": null,
+          "Cobrança": null,
+          "Consumos/Leitura": null,
+          "Conta Corrente": null,
+          "Indústria": null,
+          "Preço Unitário": null,
+          "Realização de Acordo de Pagamento": null,
+          "Rede Interior": null,
+          "Rede/Ramal": null,
+          "Refaturação-Avarias, Erros de Medição e Inadequação": null,
+          "Refaturação-Erros de Comunicação de Dados de Acesso Remoto": null,
+          "Refaturação-Erros de Configuração": null,
+          "Refaturação-Erros de Leitura por Acesso Local": null,
+          "Refaturação-Leitura Estimada": null,
+          "Refaturação-Leitura Real": null,
+          "Refaturação-Outras não tipificadas": null,
+          "Refaturação de leitura": null,
+          "Refaturação de fatura": null
+        },
+        "Objeção": {
+          "Consumos/Leitura estimada": null,
+          "Consumos/Leitura real": null,
+          "Refaturação-Leitura estimada": null,
+          "Refaturação-Leitura real": null
+        }
+      },
+      "Produtos e Serviços": {
+        "Assistência Técnica": {
+          "Aparelhos": null,
+          "Falta de Pressão": null
+        },
+        "Contador": {
+          "(Re)Agendamento": null,
+          "Avisos no Prédio": null,
+          "Certificação Instalação": null,
+          "Conversão e Reconversão de Aparelhos": null,
+          "Emergência": null,
+          "Falta de gás": null,
+          "Falta de pressão": null,
+          "Fraude": null,
+          "Funcionamento de contador": null,
+          "Leitura Extraordinária": null,
+          "Metrologia/Subs. Campanha": null,
+          "Outras": null,
+          "Retirada de Contador": null,
+          "Suspensão/Restab-ICU": null,
+          "Suspensão/Restab-IIU": null
+        },
+        "Rede Interior": {
+          "Infraestruturação": null
+        }
+      },
+      "Serviço ao Cliente": {
+        "2ª Via": {
+          "Insistência": null
+        },
+        "Atendimento": {
+          "Atendimento": null,
+          "Comunicações Enviadas": null,
+          "Conteúdo Digitais": null,
+          "Registos/Gravações": null,
+          "RGPD": null
+        },
+        "Atuação": {
+          "Assistência Técnica": null,
+          "Atendimento": null,
+          "Contratação": null,
+          "Emergência": null,
+          "Rede Interior": null,
+          "Rede/Ramal": null
+        },
+        "Danos materiais/pessoais causados": {
+          "Assistência Técnica": null,
+          "Atendimento": null,
+          "Rede Interior": null,
+          "Rede/Ramal": null
+        },
+        "Incumprimento": {
+          "Assistência Técnica": null,
+          "Atendimento": null,
+          "Contratação": null,
+          "Emergência": null,
+          "Rede Interior": null,
+          "Rede/Ramal": null
+        }
+      }
+    },
+    "Solicitação de Serviço":{
+      "Contratação": {
+        "Rede Interior":{
+          "Infraestruturação": null
+        }
+      },
+      "Infraestrutura e Equipamentos": {
+        "Rede/Ramal":{
+          "Construção": null,
+          "Embargo": null,
+          "Formulário de Acesso à Rede": null,
+          "Insistência": null,
+          "Orçamento": null,
+          "Outras": null,
+          "Pressão de abastecimento": null,
+          "Rede/Ramal": null,
+          "Viabilidade Abastecimento": null
+        },
+        "Rede Interior": {
+          "Alteração": null,
+          "Conversão e Reconversão de Aparelhos": null,
+          "Infraestruturação": null,
+          "Viabilidade Abastecimento": null,
+          "Visita Comercial/Campanha": null
+        }      
+      } ,
+      "Produtos e Serviços":{
+        "Assistência Técnica" :{
+          "(Re)Agendamento": null,
+          "Aparelhos": null,
+          "Avisos no Prédio": null,
+          "Certificação Instalação": null,
+          "Conversão e Reconversão de Aparelhos": null,
+          "Emergência": null,
+          "Fraude": null,
+          "Leitura Extraordinária": null,
+          "Metrologia/Subs. Campanha": null,
+          "Outras": null,
+          "Retirada de Contador": null,
+          "Suspensão/Restab-ICU": null,
+          "Suspensão/Restab-IIU": null
+        },
+        "Contador":{
+          "Falta de gás": null,
+          "Falta de pressão": null,
+          "Funcionamento de contador": null
+        },
+        "Rede Interior": {
+          "Aparelhos": null,
+          "Assistência Técnica": null,
+          "Atendimento": null,
+          "Danos materias e/ou pessoais causados": null,
+          "Insfraestruturação": null
+        }
+      }
+    }
+  }
+}
